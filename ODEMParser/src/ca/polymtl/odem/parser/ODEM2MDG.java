@@ -75,6 +75,7 @@ public class ODEM2MDG {
 					o.newLine();
 				}
 			}
+			o.flush();
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
